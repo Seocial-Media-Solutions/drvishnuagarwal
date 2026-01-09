@@ -1,0 +1,295 @@
+export default function sitemap() {
+  const baseUrl = "https://drvishnuagrawal.in";
+  const currentDate = new Date();
+
+  return [
+    // Main Pages - High Priority
+    {
+      url: baseUrl,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: currentDate,
+      changeFrequency: "daily",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/bookconsultation`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+
+    // Service Pages - High Priority
+    {
+      url: `${baseUrl}/services/prostate-surgery`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/renal-stone`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/ureteric-stone`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/bladder-stone`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/bladder-tumor`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/prostate-disease`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services/urinary-disease`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/male-infertility`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/services/andrology-problems`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services/male-sexual-problems`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services/all-disease-related-urology`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services/urinary-incontinence-treatment`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services/overactive-bladder-treatment`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/services/urinary-fistula`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/services/urethroplasty`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/services/hypospadias-udt`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+
+    // All Blog Posts - High Priority (0.9)
+    {
+      url: `${baseUrl}/blog/urology-health-tips-ajmer-urologist`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-kidney-doctor-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urology-doctor-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urology-clinic-ajmer-agrawal-clinic`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-male-infertility-doctor-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/urology-specialist-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urologist-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/uti-prevention-treatment-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urologist-in-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urologist-ajmer-consult-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/top-urologist-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-urology-specialist-ajmer-dr.-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/urinary-incontinence-treatment-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/best-kidney-disease-treatment-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/blog/urologist-in-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+
+    {
+      url: `${baseUrl}/blog/maintain-healthy-urinary-system-naturally`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/understanding-urinary-system-how-it-works-why-important`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/lifestyle-kidney-bladder-health-treatment-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/prevent-kidney-stones-simple-tips-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/urinary-tract-infection-causes-prevention-tips`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/prostate-enlargement-symptoms-treatment-options`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/frequent-urination-night-nocturia-causes-treatment`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/kidney-stones-symptoms-diagnosis-effective-treatments`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/stress-sexual-health-mental-health-matters`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
+    {
+      url: `${baseUrl}/blog/how-lifestyle-diseases-affect-kidney-health`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },  
+    {
+      url: `${baseUrl}/blog/kidney-pain-vs-back-pain-how-to-identify`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },  
+  ];
+}
