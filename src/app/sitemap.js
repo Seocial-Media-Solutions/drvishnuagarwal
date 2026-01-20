@@ -291,5 +291,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },  
+     {
+      url: `${baseUrl}/blog/male-infertility-causes-solutions-treatment-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },  
   ];
 }
