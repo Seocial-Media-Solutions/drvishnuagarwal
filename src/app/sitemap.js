@@ -297,5 +297,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },  
+    {
+      url: `${baseUrl}/blog/blood-in-urine-hematuria-causes-treatment-when-to-see-doctor-ajmer`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    }
   ];
 }
