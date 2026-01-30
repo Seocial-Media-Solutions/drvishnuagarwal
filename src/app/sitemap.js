@@ -302,6 +302,12 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
-    }
+    },
+    {
+      url: `${baseUrl}/blog/is-kidney-stone-surgery-painful-complete-guide-painless-treatment-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
