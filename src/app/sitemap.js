@@ -309,5 +309,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+    {
+      url: `${baseUrl}/blog/laser-surgery-in-urology-benefits-recovery-guide-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
