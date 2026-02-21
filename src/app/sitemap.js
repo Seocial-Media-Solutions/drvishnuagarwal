@@ -315,5 +315,10 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+   {url: `${baseUrl}/blog/laser-surgery-prostate-safe-elderly-patients-benefits-risks-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },  
   ];
 }
