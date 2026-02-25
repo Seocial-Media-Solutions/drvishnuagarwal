@@ -284,19 +284,19 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
-    },  
+    },
     {
       url: `${baseUrl}/blog/kidney-pain-vs-back-pain-how-to-identify`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
-    },  
-     {
+    },
+    {
       url: `${baseUrl}/blog/male-infertility-causes-solutions-treatment-ajmer`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
-    },  
+    },
     {
       url: `${baseUrl}/blog/blood-in-urine-hematuria-causes-treatment-when-to-see-doctor-ajmer`,
       lastModified: currentDate,
@@ -315,10 +315,18 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
-   {url: `${baseUrl}/blog/laser-surgery-prostate-safe-elderly-patients-benefits-risks-ajmer-dr-vishnu-agrawal`,
+    {
+      url: `${baseUrl}/blog/laser-surgery-prostate-safe-elderly-patients-benefits-risks-ajmer-dr-vishnu-agrawal`,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 0.96,
-    },  
+    },
+
+    {
+      url: `${baseUrl}/blog/common-prostate-problems-senior-citizens-symptoms-treatment-ajmer-dr-vishnu-agrawal`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
