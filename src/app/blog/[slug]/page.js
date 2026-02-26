@@ -183,24 +183,20 @@ export default async function SingleBlogPage({ params }) {
   });
 
   return (
-    <article className="min-h-screen bg-gradient-to-b from-blue-50 to-teal-50">
-      <div className="relative w-full h-80 md:h-104 max-w-6xl mx-auto">
-        <Image
-          src={blog.image || "/images/urology-blog-hero.jpg"}
-          alt={blog.alt || blog.title}
-          fill
-          priority
-          className="object-fit rounded-lg shadow-lg"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-70 rounded-lg"></div>
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-2 drop-shadow-md">
-            {blog.title}
-          </h1>
+    <article className="min-h-screen bg-gradient-to-b from-blue-50 to-teal-50 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-8">
+        <div className=" aspect-[3/1.5] relative w-full rounded-xl overflow-hidden shadow-lg">
+          <Image
+            src={blog.image || "/images/urology-blog-hero.jpg"}
+            alt={blog.alt || blog.title}
+            fill
+            priority
+            className="object-fit rounded-xl shadow-lg"
+          />
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden p-6 md:p-10 border border-blue-100">
           <div className="flex items-center mb-8 pb-4 border-b border-blue-100">
             <div className="flex items-center">
@@ -230,11 +226,13 @@ export default async function SingleBlogPage({ params }) {
               ))}
             </div>
           )}
-
+          <h1 className="text-3xl text-black md:text-5xl font-bold  mb-2 drop-shadow-md">
+            {blog.title}
+          </h1>
           <BlogContent content={blog.content} />
-           <div><a className="bg-[#25D366]  w-fit flex border-2 px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors shadow-md " href="/bookconsultation">
-           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round"  className="text-center lucide lucide-calendar mr-2" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path>
-           </svg>BOOK CONSULTATION</a></div>
+          <div><a className="bg-[#25D366]  w-fit flex border-2 px-6 py-2 rounded-full font-medium hover:bg-opacity-90 transition-colors shadow-md " href="/bookconsultation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinejoin="round" className="text-center lucide lucide-calendar mr-2" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path>
+            </svg>BOOK CONSULTATION</a></div>
           <div className="mt-10 pt-6 border-t border-blue-100">
             <Link
               href="/blog"
