@@ -22,7 +22,7 @@ export const metadata = {
     'best urologist for kidney stones'
   ],
   openGraph: {
-    title: 'Top Urology Treatment in Ajmer | Dr. Vishnu Agrawal Clinic',
+    title: 'Top Urology Treatment in Ajmer | Dr. Vishnu Agrawal Urology Clinic Ajmer',
     description: 'Advanced treatments for kidney stones, prostate enlargement, male infertility and urinary disorders using modern techniques at our Ajmer clinic',
     url: 'https://drvishnuagrawal.in/services',
     images: [
@@ -43,7 +43,7 @@ export const metadata = {
     description: 'Comprehensive urology treatments including laser stone removal, prostate surgery and male health solutions',
     images: ['/images/services-twitter-card.jpg'],
   },
-   robots: {
+  robots: {
     index: true,
     follow: true,
     googleBot: {
@@ -52,10 +52,10 @@ export const metadata = {
       'max-image-preview': 'large',
     },
   },
-   other: {
+  other: {
     'application-name': 'Dr. Vishnu Agrawal Urology Clinic',
     'author': 'Dr. Vishnu Agrawal',
-     'publisher': 'Dr. Vishnu Agrawal',
+    'publisher': 'Dr. Vishnu Agrawal',
     'publisher-url': 'https://drvishnuagrawal.in',
     'generator': 'Next.js',
     'theme-color': '#ffffff',
@@ -65,7 +65,7 @@ export const metadata = {
 export default function Services() {
   return (
     <>
-        <AboutHero
+      <AboutHero
         // bannerImage="/images/aboutus.webp"
         title="Dr. Vishnu Agrawal"
         subtitle="Expert Urological Care with Compassion and Precision"
@@ -75,7 +75,7 @@ export default function Services() {
         ]}
       />
       <h1 className="hidden">Best Urologist in Ajmer - Dr Vsihnu Agrawal</h1>
-      <ServicesSection/>
+      <ServicesSection />
     </>
   );
 }

@@ -23,7 +23,7 @@ export const metadata = {
     "male infertility doctor Ajmer",
     "urinary problems treatment",
     "Dr. Vishnu Agrawal",
-    "urology clinic Ajmer",
+    "Agrawal Urology Clinic Ajmer",
     "laser prostate surgery",
     "best urology hospital in Ajmer",
     "top rated urologist Rajasthan",

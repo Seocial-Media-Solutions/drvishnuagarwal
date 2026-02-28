@@ -217,7 +217,7 @@ const ClientBlogPage = ({ blogs }) => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
-                  <span>Agrawal Clinic, Ajmer</span>
+                  <span>Agrawal Urology Clinic Ajmer, Ajmer</span>
                 </div>
               </div>
             </div>
@@ -337,11 +337,10 @@ const ClientBlogPage = ({ blogs }) => {
                 <button
                   key={i}
                   onClick={() => goToPage(i + 1)}
-                  className={`px-3 py-1 rounded ${
-                    currentPage === i + 1
+                  className={`px-3 py-1 rounded ${currentPage === i + 1
                       ? "bg-blue-600 text-white"
                       : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                  }`}
+                    }`}
                 >
                   {i + 1}
                 </button>
@@ -394,7 +393,7 @@ const ClientBlogPage = ({ blogs }) => {
                     />
                   </svg>
                   <div>
-                    <h4 className="font-semibold">Agrawal Clinic address 📍</h4>
+                    <h4 className="font-semibold">Agrawal Urology Clinic Ajmer address 📍</h4>
                     <p className="text-blue-100 text-wrap">
                       4/172, Gyan marg, Makarwali Rd, near vinayak complex,
                       Panchsheel Nagar, Ajmer, Rajasthan 305004

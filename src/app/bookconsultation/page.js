@@ -16,7 +16,7 @@ export const metadata = {
     'digital appointment system'
   ],
   openGraph: {
-    title: 'Book Urology Consultation Online | Dr. Vishnu Agrawal Clinic',
+    title: 'Book Urology Consultation Online | Dr. Vishnu Agrawal Urology Clinic Ajmer',
     description: 'Secure online appointment system for kidney stone treatment, prostate care and male health solutions at our Ajmer clinic',
     url: 'https://drvishnuagrawal.in/bookconsultation',
     images: [
@@ -46,7 +46,7 @@ export const metadata = {
       'max-image-preview': 'large',
     },
   },
-   other: {
+  other: {
     'application-name': 'Dr. Vishnu Agrawal Urology Clinic',
     'author': 'Dr. Vishnu Agrawal',
     'publisher': 'Dr. Vishnu Agrawal',
@@ -59,7 +59,7 @@ export const metadata = {
 export default function BookConsultation() {
   return (
     <div className="bg-gray-50">
-     <BookingSystem/>
+      <BookingSystem />
     </div>
   );
 }
