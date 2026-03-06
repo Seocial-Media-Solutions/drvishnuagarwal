@@ -335,5 +335,11 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+    {
+      url: `${baseUrl}/blog/blood-in-urine-is-it-a-serious-problem`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
