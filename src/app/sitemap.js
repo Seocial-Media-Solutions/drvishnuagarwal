@@ -341,5 +341,12 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+    {
+      url: `${baseUrl}/blog/best-treatment-options-kidney-stones`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
+
