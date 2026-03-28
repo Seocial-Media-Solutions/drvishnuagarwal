@@ -353,6 +353,12 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+    {
+      url: `${baseUrl}/blog/burning-urination-causes-treatment`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
 
