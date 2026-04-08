@@ -359,6 +359,12 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 0.96,
     },
+    {
+      url: `${baseUrl}/blog/how-much-water-should-you-drink-daily`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.96,
+    },
   ];
 }
 
